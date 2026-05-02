@@ -71,9 +71,7 @@ button{
 }
 
 .title{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     padding: 50px;
     font-size: 36px;
     color: #1F2937;
@@ -111,4 +109,22 @@ button{
 .text{
     text-align: center;
     color: #515151;
+}
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 260px;
+    
+}
+
+.author{
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
+
 }
